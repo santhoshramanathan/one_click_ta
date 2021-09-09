@@ -26,7 +26,7 @@ def step_build(){
 def step_run_ta() {
     node() {
       try {
-        unstash 'barFileComponent'
+        //unstash 'barFileComponent'
         println (">> running TA  ${BUILD_NO} <<")
         
         sh '''
